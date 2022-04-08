@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { Plural, Trans } from '@lingui/macro';
-import { type OfferSummaryRecord  } from '@chia/api';
+import { type OfferSummaryRecord  } from '@spare/api';
 import {
   Flex,
   FormatLargeNumber,
@@ -8,7 +8,7 @@ import {
   TooltipIcon,
   mojoToChia,
   mojoToCAT,
-} from '@chia/core';
+} from '@spare/core';
 import {
   Box,
   Divider,
@@ -44,8 +44,8 @@ export default function OfferSummary(props: Props) {
   const makerFee: number = summary.fees;
   const makerAssetInfo = makerEntries.length === 1 ? lookupByAssetId(makerEntries[0][0]) : undefined;
   const takerAssetInfo = takerEntries.length === 1 ? lookupByAssetId(takerEntries[0][0]) : undefined;
-  const makerAmount = makerEntries.length > 0 ? (['xch', 'txch'].includes(makerEntries[0][0].toLowerCase()) ? mojoToChia(makerEntries[0][1]) : mojoToCAT(makerEntries[0][1])) : undefined;
-  const takerAmount = takerEntries.length > 0 ? (['xch', 'txch'].includes(takerEntries[0][0].toLowerCase()) ? mojoToChia(takerEntries[0][1]) : mojoToCAT(takerEntries[0][1])) : undefined;
+  const makerAmount = makerEntries.length > 0 ? (['spare', 'tspare'].includes(makerEntries[0][0].toLowerCase()) ? mojoToChia(makerEntries[0][1]) : mojoToCAT(makerEntries[0][1])) : undefined;
+  const takerAmount = takerEntries.length > 0 ? (['spare', 'tspare'].includes(takerEntries[0][0].toLowerCase()) ? mojoToChia(takerEntries[0][1]) : mojoToCAT(takerEntries[0][1])) : undefined;
   const canSetExchangeRate = makerAssetInfo && takerAssetInfo && makerAmount && takerAmount;
   const makerExchangeRate = canSetExchangeRate ? takerAmount / makerAmount : undefined;
   const takerExchangeRate = canSetExchangeRate ? makerAmount / takerAmount : undefined;

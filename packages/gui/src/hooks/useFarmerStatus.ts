@@ -1,5 +1,5 @@
-import { ServiceName } from '@chia/api';
-import { useIsServiceRunningQuery } from '@chia/api-react';
+import { ServiceName } from '@spare/api';
+import { useIsServiceRunningQuery } from '@spare/api-react';
 import FarmerStatus from '../constants/FarmerStatus';
 import FullNodeState from '../constants/FullNodeState';
 import useFullNodeState from './useFullNodeState';

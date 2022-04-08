@@ -18,8 +18,8 @@ import {
 import {
   Help as HelpIcon,
 } from '@material-ui/icons';
-import { useGetKeyringStatusQuery, useMigrateKeyringMutation } from '@chia/api-react';
-import { AlertDialog, ConfirmDialog, useOpenDialog, useValidateChangePassphraseParams, Suspender, useSkipMigration } from '@chia/core';
+import { useGetKeyringStatusQuery, useMigrateKeyringMutation } from '@spare/api-react';
+import { AlertDialog, ConfirmDialog, useOpenDialog, useValidateChangePassphraseParams, Suspender, useSkipMigration } from '@spare/core';
 
 export default function AppKeyringMigrator() {
   const [validateChangePassphraseParams] = useValidateChangePassphraseParams();

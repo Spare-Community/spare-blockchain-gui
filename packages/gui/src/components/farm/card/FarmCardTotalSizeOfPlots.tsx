@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { FormatBytes, CardSimple } from '@chia/core';
+import { FormatBytes, CardSimple } from '@spare/core';
 import usePlots from '../../../hooks/usePlots';
 
 export default function FarmCardTotalSizeOfPlots() {

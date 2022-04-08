@@ -1,4 +1,4 @@
-import { type WalletType } from '@chia/api';
+import { type WalletType } from '@spare/api';
 
 type OfferRowData = {
   amount: number | string;

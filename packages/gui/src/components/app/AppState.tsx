@@ -1,9 +1,9 @@
 import React, { useState, useEffect, ReactNode, useMemo } from 'react';
 import isElectron from 'is-electron';
 import { Trans } from '@lingui/macro';
-import { ConnectionState, ServiceHumanName, ServiceName, PassphrasePromptReason } from '@chia/api';
-import { useCloseMutation, useGetStateQuery, useGetKeyringStatusQuery, useServices } from '@chia/api-react';
-import { Flex, useSkipMigration, LayoutHero, LayoutLoading, useMode, useIsSimulator } from '@chia/core';
+import { ConnectionState, ServiceHumanName, ServiceName, PassphrasePromptReason } from '@spare/api';
+import { useCloseMutation, useGetStateQuery, useGetKeyringStatusQuery, useServices } from '@spare/api-react';
+import { Flex, useSkipMigration, LayoutHero, LayoutLoading, useMode, useIsSimulator } from '@spare/core';
 import { Typography, Collapse } from '@material-ui/core';
 import AppKeyringMigrator from './AppKeyringMigrator';
 import AppPassPrompt from './AppPassPrompt';

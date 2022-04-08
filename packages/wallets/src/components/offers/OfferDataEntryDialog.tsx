@@ -9,7 +9,7 @@ import {
   DialogContent,
   TextField,
 } from '@material-ui/core';
-import { DialogActions } from '@chia/core';
+import { DialogActions } from '@spare/core';
 
 type Props ={
   open: boolean;

@@ -7,7 +7,7 @@ import {
   useOpenDialog,
   useShowDebugInformation,
   AlertDialog,
-} from '@chia/core';
+} from '@spare/core';
 import { useNavigate } from 'react-router';
 import {
   Box,
@@ -19,7 +19,7 @@ import {
 import {
   Delete as DeleteIcon,
 } from '@material-ui/icons';
-import { useDeleteUnconfirmedTransactionsMutation, useGetSyncStatusQuery } from '@chia/api-react';
+import { useDeleteUnconfirmedTransactionsMutation, useGetSyncStatusQuery } from '@spare/api-react';
 import WalletStatus from './WalletStatus';
 import WalletsDropdodown from './WalletsDropdown';
 

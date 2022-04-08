@@ -1,4 +1,4 @@
-import { ServiceName } from '@chia/api';
+import { ServiceName } from '@spare/api';
 import useService, { ServiceState } from './useService';
 
 type Options = {

@@ -9,7 +9,7 @@ import {
   FormatBytes,
   StateColor,
   Address,
-} from '@chia/core';
+} from '@spare/core';
 import {
   Box,
   Typography,

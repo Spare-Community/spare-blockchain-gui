@@ -5,7 +5,7 @@ const units = {
 };
 
 const aliases = {
-  chia: ['ch', 'chia', 'Chia'],
+  chia: ['ch', 'spare', 'Spare'],
   mojo: ['mj', 'mojo'],
   colouredcoin: ['cc', 'colouredcoin'],
 };

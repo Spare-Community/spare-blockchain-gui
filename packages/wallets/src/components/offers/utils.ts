@@ -1,9 +1,9 @@
-import { WalletType } from '@chia/api';
-import type { OfferSummaryRecord } from '@chia/api';
+import { WalletType } from '@spare/api';
+import type { OfferSummaryRecord } from '@spare/api';
 import {
   mojoToChiaLocaleString,
   mojoToCATLocaleString,
-} from '@chia/core';
+} from '@spare/core';
 import OfferState from './OfferState';
 import { AssetIdMapEntry } from '../../hooks/useAssetIdName';
 

@@ -1,8 +1,8 @@
 {
-  "name": "@chia/api",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia API Library",
-  "productName": "Chia Blockchain",
+  "name": "@spare/api",
+  "author": "Spare Network <hello@spare.farm> (https://spare.farm/)",
+  "description": "Spare API Library",
+  "productName": "Spare Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

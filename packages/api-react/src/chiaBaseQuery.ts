@@ -1,5 +1,5 @@
 import { BaseQueryFn } from '@reduxjs/toolkit/query/react';
-import Client, { Service } from '@chia/api';
+import Client, { Service } from '@spare/api';
 
 type Options = {
   client: Client;

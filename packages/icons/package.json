@@ -1,8 +1,8 @@
 {
-  "name": "@chia/icons",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia Icons Library",
-  "productName": "Chia Blockchain",
+  "name": "@spare/icons",
+  "author": "Spare Network <hello@spare.farm> (https://spare.farm/)",
+  "description": "Spare Icons Library",
+  "productName": "Spare Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

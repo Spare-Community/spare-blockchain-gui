@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { CardSimple } from '@chia/core';
-import { ServiceName } from '@chia/api';
-import { useIsServiceRunningQuery } from '@chia/api-react';
+import { CardSimple } from '@spare/core';
+import { ServiceName } from '@spare/api';
+import { useIsServiceRunningQuery } from '@spare/api-react';
 
 export default function FullNodeCardConnectionStatus() {
   const { data: isRunning, isLoading, error } = useIsServiceRunningQuery({

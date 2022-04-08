@@ -10,7 +10,7 @@ import {
   mojoToChiaLocaleString,
   mojoToCAT,
   mojoToCATLocaleString,
-} from '@chia/core';
+} from '@spare/core';
 import {
   Box,
   Divider,
@@ -18,8 +18,8 @@ import {
   Typography,
 } from '@material-ui/core';
 import { Add, Remove } from '@material-ui/icons';
-import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@chia/api-react';
-import { Wallet, WalletType } from '@chia/api';
+import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@spare/api-react';
+import { Wallet, WalletType } from '@spare/api';
 import type OfferEditorRowData from './OfferEditorRowData';
 import OfferAssetSelector from './OfferAssetSelector';
 import OfferExchangeRate from './OfferExchangeRate';

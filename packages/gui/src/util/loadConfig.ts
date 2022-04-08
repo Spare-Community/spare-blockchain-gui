@@ -9,9 +9,9 @@ import untildify from './untildify';
 function getConfigRootDir(net = 'mainnet'): string {
   const homedir = os.homedir();
 
-  return 'CHIA_ROOT' in process.env 
-    ? untildify(process.env.CHIA_ROOT)
-    : path.join(homedir, '.chia', net);
+  return 'SPARE_ROOT' in process.env 
+    ? untildify(process.env.SPARE_ROOT)
+    : path.join(homedir, '.spare', net);
 }
 
 export function readConfigFile(net?: string): string {

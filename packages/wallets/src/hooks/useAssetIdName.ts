@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
-import { useGetCatListQuery, useGetWalletsQuery } from '@chia/api-react';
-import { CATToken, Wallet } from '@chia/core';
-import { WalletType } from '@chia/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@spare/api-react';
+import { CATToken, Wallet } from '@spare/core';
+import { WalletType } from '@spare/api';
 
 export type AssetIdMapEntry = {
   walletId: number;
@@ -33,9 +33,9 @@ export default function useAssetIdName() {
       let isVerified = false;
 
       if (walletType === WalletType.STANDARD_WALLET) {
-        assetId = 'xch';
-        name = 'Chia';
-        symbol = 'XCH';
+        assetId = 'spare';
+        name = 'Spare';
+        symbol = 'SPARE';
         isVerified = true;
       }
       else if (walletType === WalletType.CAT) {

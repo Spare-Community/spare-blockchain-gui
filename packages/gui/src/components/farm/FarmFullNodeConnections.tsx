@@ -10,10 +10,10 @@ import {
   FormatBytes,
   FormatConnectionStatus,
   Loading,
-} from '@chia/core';
-import { useGetFarmerFullNodeConnectionsQuery, useIsServiceRunningQuery } from '@chia/api-react';
-import type { Connection } from '@chia/api';
-import { ServiceName } from '@chia/api';
+} from '@spare/core';
+import { useGetFarmerFullNodeConnectionsQuery, useIsServiceRunningQuery } from '@spare/api-react';
+import type { Connection } from '@spare/api';
+import { ServiceName } from '@spare/api';
 import FarmCloseConnection from './FarmCloseConnection';
 
 const StyledIconButton = styled(IconButton)`

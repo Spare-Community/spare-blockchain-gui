@@ -1,4 +1,4 @@
-# @chia/api
+# @spare/api
 
 ![Alt text](https://www.chia.net/img/chia_logo.svg)
 
@@ -15,7 +15,7 @@ This library provides support for TypeScript/JavaScript [Chia](https://www.chia.
 ## Example
 
 ```ts
-import Client, { Wallet } from '@chia/api';
+import Client, { Wallet } from '@spare/api';
 import Websocket from 'ws';
 import sleep from 'sleep-promise';
 
